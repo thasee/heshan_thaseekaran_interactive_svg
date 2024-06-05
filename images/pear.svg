@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="pear" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 320 546" style="enable-background:new 0 0 320 546;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1BAF33;}
+	.st1{fill:#94BD19;}
+
+	svg:hover #pear-body {
+		fill: #dddc20;
+	}
+
+	svg:hover #leaf {
+		fill: #02560f;
+	}
+
+	svg:hover {
+		animation: move 2s linear infinite;
+		cursor: pointer;
+	}
+
+	@keyframes move {
+		0% { transform: rotate(0deg); }
+		25% { transform: rotate(5deg); }
+		50% { transform: rotate(0eg); }
+		75% { transform: rotate(-5deg); }
+		100% { transform: rotate(0deg); }
+	}
+</style>
+<script>
+	const pathPear = document.querySelector('#pear-body');
+	function clickIcon() {        
+        console.log("You clicked on Pear Icon!");
+    }
+	document.addEventListener('click', clickIcon);
+</script>
+<path id="leaf" class="st0" d="M171,66.96c0,0,15.56-23.65,51.73-29.69c37.98-6.34,68.09,6.21,67.75,7.32l18.31,9.16
+	c0,0-0.62,6.65-16.48,21.97c-15.39,14.86-34.63,25.25-51.27,29.3c-15.71,3.82-34.52,8.05-51.27,3.66
+	c-16.33-4.28-22.34-10.74-22.34-10.74L171,66.96z"/>
+<path id="stem" d="M151.31,127c-0.82,1.68-1.86-43.41,8.42-80.78c5.53-20.09,15.59-30.94,20.87-36.42
+	c3.18-3.31,8.88-2.34,11.64,0.83c1.39,1.6,2.52,3.47,1.18,6.49c-3.49,7.82-14.65,18.31-16.48,21.97l-7.32,38.45L167.79,127H151.31z"
+	/>
+<path id="pear-body" class="st1" d="M142.15,127c-11.48,1.85-39.35,8.12-53.1,51.27c-14.1,44.24-6.83,78.54-34.79,111.7
+	c-28.43,33.71-51.27,80.57-42.12,130.01s23.81,87.9,80.57,104.38c56.77,16.48,100.14,21.61,153.82-7.32
+	c45.36-24.45,60.76-69.81,58.6-120.86c-1.24-29.33-10.01-65.69-40.29-106.21c-14.71-19.68-18.78-45.69-25.64-82.4
+	c0,0-11.56-47.83-20.14-54.94C208.1,143.56,197.7,114.51,142.15,127z"/>
+</svg>

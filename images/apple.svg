@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: ChatGPT SVG Export -->
+<svg version="1.1" id="apple" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 635 744" style="enable-background:new 0 0 635 744;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF4B4B;}
+	.st1{fill:#00A651;}
+	.st2{fill:#6A3805;}
+
+	svg:hover #apple-body {
+		fill: #FF6347;
+		cursor: pointer;
+	}
+
+	svg:hover #leaf {
+		fill: #32CD32;
+		animation: wiggle 1s infinite;
+		cursor: pointer;
+	}
+
+	svg:hover #stem {
+		fill: #8B4513;
+		animation: bounce 1s infinite;
+		cursor: pointer;
+	}
+
+	@keyframes wiggle {
+		0%, 100% { transform: rotate(0deg); }
+		25% { transform: rotate(5deg); }
+		75% { transform: rotate(-5deg); }
+	}
+
+	@keyframes bounce {
+		0%, 100% { transform: translateY(0); }
+		50% { transform: translateY(-10px); }
+	}
+
+</style>
+<script>
+	const pathApple = document.querySelector('#apple-body');
+	function clickIcon() {        
+        console.log("You clicked on Apple Icon!");
+    }
+	document.addEventListener('click', clickIcon);
+</script>
+<path id="apple-body" class="st0" d="M172.79,152.59c-6.51-1.91-13.36-2.34-20.06-1.22c-28.62,4.77-101.1,27.81-126.27,112.77
+	c-31.5,106.31,40.29,310,57.75,339.93c18.37,31.5,58.79,127.22,126,124.68c69.56-2.62,81.37-26.25,107.62-21
+	c26.25,5.25,92.48,24.84,115.52,21.3c44.6-6.86,123.7-115.39,146.97-189.29c22.31-70.87,57.75-215.24,24.94-279.55
+	c0,0-38.4-102.37-131.41-107.62s-96.95,21-156.07,22.62C255.07,176.91,194.34,158.91,172.79,152.59z"/>
+<path id="leaf" class="st1" d="M50.08,56.77c-4.28,1.69,50.62,61.31,86.62,81.37c42.9,23.9,157.53,41.56,162.75,34.12
+	c5.01-7.15-25.19-66.55-80.06-99.75C161.5,37.5,115.74,33.07,50.08,56.77z"/>
+<path id="stem" class="st2" d="M396.57,41.02c0.76,0-40.93,54.59-52.5,90.56c-12.2,37.95,1.38,53.03-5.25,66.94
+	c-6.82,14.32-20.7,20.16-39.37,7.87c-24.49-16.11,30.82-179.97,69.56-188.99C401.4,9.84,397.83,36.96,396.57,41.02z"/>
+</svg>

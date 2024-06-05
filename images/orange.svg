@@ -1,0 +1,46 @@
+Apologies for the interruption. Here's the completed SVG code for an orange with animations:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="orange" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFA500;}
+	.st1{fill:#FFD700;}
+	.st2{fill:none;stroke:#8B4513;stroke-width:10;stroke-miterlimit:10;}
+
+	svg:hover #orange-peel {
+		fill: #FFA500;
+		animation: wiggle 0.5s ease-in-out infinite alternate;
+	}
+
+	@keyframes wiggle {
+		0% { transform: rotate(0deg); }
+		50% { transform: rotate(5deg); }
+		100% { transform: rotate(0deg); }
+	}
+</style>
+<script>
+	document.querySelector('#orange-peel').addEventListener('click', function() {        
+        console.log("You clicked on the Orange Peel!");
+    });
+</script>
+<g id="orange-peel">
+	<path class="st0" d="M386.71,248.38c-12.5-24.08-29.4-46.62-50.49-66.71c-34.79-34.79-77.16-58.37-121.83-70.76
+		c-5.95-1.5-11.9-2.72-17.86-3.66c-5.97-0.94-11.95-1.5-17.93-1.76c-3.57-0.15-7.14-0.23-10.7-0.23c-39.35,0-76.51,8.85-111.21,26.12
+		c-34.43,16.7-64.53,41.49-88.81,73.5c-22.44,30.71-38.96,68.31-48.76,108.26c-9.97,40.57-13.52,81.64-10.59,121.9
+		c1.8,29.14,8.35,57.67,19.05,84.35c11.53,29.85,27.78,55.75,47.83,76.41c20.63,21.53,44.68,36.7,71.41,45.48
+		c26.73,8.78,55.06,11.16,83.47,6.29c29.36-5.15,57.17-17.42,81.85-35.9c23.8-18.91,44.98-44.88,60.93-77.38
+		c12.69-27.48,21.43-58.54,26.24-91.24C399.43,326.25,399.38,287.84,386.71,248.38z"/>
+	<path class="st1" d="M244.59,344.14c-4.35-0.95-8.77-2.23-13.23-3.83c-13.73-5.15-27.45-13.52-39.97-25.24
+		c-22.06-18.67-38.21-45.06-47.16-73.42c-8.54-26.98-11.76-56.27-9.58-84.63c2.4-31.26,12.43-61.65,29.46-88.14
+		c22.24-33.58,53.16-59.61,88.53-76.82c35.17-17.08,73.07-24.95,112.23-21.64c35.07,3.03,68.67,15.22,98.32,36.17
+		c28.59,20.67,51.63,48.64,67.14,80.6c16.48,34.45,25.79,73.4,27.54,113.22c1.45,36.25-5.26,72.17-18.81,105.96
+		c-13.73,34.31-34.64,65.11-60.11,91.46c-25.32,26.08-56.01,47.13-90.64,60.8c-33.6,13.55-70.09,19.66-106.39,16.99
+		C278.15,346.77,261.41,345.76,244.59,344.14z"/>
+</g>
+<path id="orange-stem" class="st2" d="M319.75,184.28c-0.99,4.77-0.35,9.98,1.83,14.05c2.55,5.16,6.63,8.66,9.8,12.69"/>
+</svg>
+```
+
+This code includes the orange peel and stem with animations applied to the peel when hovered over.
