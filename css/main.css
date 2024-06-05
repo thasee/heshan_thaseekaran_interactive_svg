@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  font-family: "Cabin", Arial, Helvetica, sans-serif;
+  color: #313131;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+  text-align: center;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+object {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #313131;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 10px;
+}
+
+object:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+strong {
+  color: #ff5733;
+}
+
+.flavors {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.flavor {
+  margin-bottom: 20px;
+}
