@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: ChatGPT SVG Export -->
+<svg version="1.1" id="cherry" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 631 566" style="enable-background:new 0 0 631 566;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#654321;stroke-width:10;stroke-miterlimit:10;}
+	.st1{fill:#FF6347;}
+	.st2{fill:#FFFFFF;}
+
+	svg:hover #cherry1,
+	svg:hover #cherry2 {
+		fill: #FF4500;
+		cursor: pointer;
+		animation: pulse 1s infinite;
+	}
+
+	svg:hover #stem {
+		stroke: #8B4513;
+		cursor: pointer;
+		animation: wiggle 0.5s infinite;
+	}
+
+	@keyframes wiggle {
+		0%, 100% { transform: rotate(0deg); }
+		25% { transform: rotate(5deg); }
+		75% { transform: rotate(-5deg); }
+	}
+
+	@keyframes pulse {
+		0% { transform: scale(1); }
+		50% { transform: scale(1.1); }
+		100% { transform: scale(1); }
+	}
+
+	@keyframes bounce {
+		0%, 100% { transform: translateY(0); }
+		50% { transform: translateY(-10px); }
+	}
+
+</style>
+<script>
+	const pathCherry = document.querySelector('#cherry1');
+	function clickIcon() {        
+        console.log("You clicked on Cherry Icon!");
+    }
+	document.addEventListener('click', clickIcon);
+</script>
+<path id="stem" class="st0" d="M184.32,296.85c0,0,90.2-136.82,102.36-177.36c12.16-40.54,20.27-93.24,20.27-93.24
+	c30.24,41.32,143.32,196.91,140.88,234.12"/>
+<path id="cherry1" class="st1" d="M277.57,418.47c0,73.89-59.9,133.78-133.78,133.78S10,492.36,10,418.47s59.9-133.78,133.78-133.78
+	c16.96,0,33.18,3.16,48.11,8.91C242.01,312.92,277.57,361.55,277.57,418.47z"/>
+<ellipse id="cherry2" class="st1" cx="470.14" cy="377.93" rx="139.86" ry="125.68"/>
+<ellipse id="light1" class="st2" cx="88.04" cy="352.59" rx="25.34" ry="23.31"/>
+<ellipse id="light2" class="st2" cx="408.31" cy="320.16" rx="25.34" ry="23.31"/>
+</svg>

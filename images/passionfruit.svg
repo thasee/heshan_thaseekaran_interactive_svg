@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path fill="#ffc542" d="M29.3,1.7c-1.1-0.6-2.5-0.6-3.6,0l-15.6,8.8c-0.8,0.5-1.3,1.2-1.3,2v23.8c0,0.8,0.5,1.5,1.3,2l15.6,8.8c1.1,0.6,2.5,0.6,3.6,0l15.6-8.8c0.8-0.5,1.3-1.2,1.3-2v-23.8c0-0.8-0.5-1.5-1.3-2l-15.6-8.8z"/>
+  <path fill="#333" d="M24,17.3c0,0-2.1,2.1-4.6,2.1s-4.6-2.1-4.6-2.1c0-0.2,0.1-0.4,0.3-0.5l7.8-4.4c0.2-0.1,0.4,0,0.5,0.1z"/>
+
+  <style>
+    svg:hover path {
+      fill: #f9b93e;
+    }
+  </style>
+  <script>
+	const pathPear = document.querySelector('#pear-body');
+	function clickIcon() {        
+        console.log("You clicked on Passion fruit Icon!");
+    }
+	document.addEventListener('click', clickIcon);
+</script>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 631 566" style="enable-background:new 0 0 631 566;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF6F61;}
+
+	svg:hover .st0 {
+		fill: #FFD166;
+	}
+
+	svg:hover {
+		cursor: pointer;
+	}
+
+	.st0 {
+		transition: all 1s ease; 
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+
+	svg:hover .st0 { 
+		animation: rotate 3s linear infinite;
+	}
+
+	@keyframes rotate {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}
+</style>
+<polygon class="st0" points="310.5,7.12 400.11,188.7 600.5,217.82 455.5,359.16 489.73,558.73 310.5,464.51 131.27,558.73 
+	165.5,359.16 20.5,217.82 220.89,188.7 "/>
+</svg>
